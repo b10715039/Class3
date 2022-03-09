@@ -13,10 +13,11 @@
 		48E8223427CF449E006E7A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E8223227CF449E006E7A64 /* Main.storyboard */; };
 		48E8223627CF449F006E7A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E8223527CF449F006E7A64 /* Assets.xcassets */; };
 		48E8223927CF449F006E7A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E8223727CF449F006E7A64 /* LaunchScreen.storyboard */; };
+		48E8224127CF45EE006E7A64 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E8224027CF45EE006E7A64 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		48E8222927CF449E006E7A64 /* Class3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Class3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E8222927CF449E006E7A64 /* Segue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E8222C27CF449E006E7A64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48E8222E27CF449E006E7A64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		48E8223027CF449E006E7A64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		48E8223527CF449F006E7A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48E8223827CF449F006E7A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48E8223A27CF449F006E7A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E8224027CF45EE006E7A64 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		48E8222A27CF449E006E7A64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				48E8222927CF449E006E7A64 /* Class3.app */,
+				48E8222927CF449E006E7A64 /* Segue.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +65,7 @@
 				48E8223527CF449F006E7A64 /* Assets.xcassets */,
 				48E8223727CF449F006E7A64 /* LaunchScreen.storyboard */,
 				48E8223A27CF449F006E7A64 /* Info.plist */,
+				48E8224027CF45EE006E7A64 /* secondViewController.swift */,
 			);
 			path = Class3;
 			sourceTree = "<group>";
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		48E8222827CF449E006E7A64 /* Class3 */ = {
+		48E8222827CF449E006E7A64 /* Segue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48E8223D27CF449F006E7A64 /* Build configuration list for PBXNativeTarget "Class3" */;
+			buildConfigurationList = 48E8223D27CF449F006E7A64 /* Build configuration list for PBXNativeTarget "Segue" */;
 			buildPhases = (
 				48E8222527CF449E006E7A64 /* Sources */,
 				48E8222627CF449E006E7A64 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = Class3;
+			name = Segue;
 			productName = Class3;
-			productReference = 48E8222927CF449E006E7A64 /* Class3.app */;
+			productReference = 48E8222927CF449E006E7A64 /* Segue.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				48E8222827CF449E006E7A64 /* Class3 */,
+				48E8222827CF449E006E7A64 /* Segue */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E8224127CF45EE006E7A64 /* secondViewController.swift in Sources */,
 				48E8223127CF449E006E7A64 /* ViewController.swift in Sources */,
 				48E8222D27CF449E006E7A64 /* AppDelegate.swift in Sources */,
 				48E8222F27CF449E006E7A64 /* SceneDelegate.swift in Sources */,
@@ -296,6 +300,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +328,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48E8223D27CF449F006E7A64 /* Build configuration list for PBXNativeTarget "Class3" */ = {
+		48E8223D27CF449F006E7A64 /* Build configuration list for PBXNativeTarget "Segue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48E8223E27CF449F006E7A64 /* Debug */,
